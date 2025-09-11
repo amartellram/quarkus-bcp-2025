@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a4be5d73-443b-4b3b-b27f-476c0f54ff65" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="32HtxwoLnlYN6fHa7z1UYXeDKnM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.All in test-mock.executor": "Run",
+    "JUnit.CrudTest.executor": "Run",
+    "JUnit.PanacheMockTest.executor": "Run",
+    "JUnit.RestClientMockTest.highFraudScoreReturns400.executor": "Run",
+    "JUnit.ServiceMockTest.creatingAnExpenseReturns400OnInvalidAmountAndType.executor": "Run",
+    "JUnit.SpyTest.executor": "Run",
+    "Maven.test-mock [quarkus:dev].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "feature/day-02",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn quarkus:dev" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.All in test-mock">
+    <configuration name="All in test-mock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-mock" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PanacheMockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-mock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bcp.training.expenses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bcp.training.expenses" />
+      <option name="MAIN_CLASS_NAME" value="com.bcp.training.expenses.PanacheMockTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestClientMockTest.highFraudScoreReturns400" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-mock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bcp.training.expenses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bcp.training.expenses" />
+      <option name="MAIN_CLASS_NAME" value="com.bcp.training.expenses.RestClientMockTest" />
+      <option name="METHOD_NAME" value="highFraudScoreReturns400" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceMockTest.creatingAnExpenseReturns400OnInvalidAmountAndType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-mock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bcp.training.expenses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bcp.training.expenses" />
+      <option name="MAIN_CLASS_NAME" value="com.bcp.training.expenses.ServiceMockTest" />
+      <option name="METHOD_NAME" value="creatingAnExpenseReturns400OnInvalidAmountAndType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-mock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bcp.training.expenses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bcp.training.expenses" />
+      <option name="MAIN_CLASS_NAME" value="com.bcp.training.expenses.SpyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-mock" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
+      <module name="test-mock" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="cmdOptions" />
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="multimoduleDir" />
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="projectsCmdOptionValues">
+                <list />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+        <emulateTerminal>true</emulateTerminal>
+        <profile>dev</profile>
+      </QsMavenRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in test-mock" />
+        <item itemvalue="JUnit.SpyTest" />
+        <item itemvalue="JUnit.ServiceMockTest.creatingAnExpenseReturns400OnInvalidAmountAndType" />
+        <item itemvalue="JUnit.RestClientMockTest.highFraudScoreReturns400" />
+        <item itemvalue="JUnit.PanacheMockTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4be5d73-443b-4b3b-b27f-476c0f54ff65" name="Changes" comment="" />
+      <created>1757089575227</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757089575227</updated>
+      <workItem from="1757089576255" duration="2546000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/test_mock$All_in_test_mock.ic" NAME="All in test-mock Coverage Results" MODIFIED="1757089934381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+  </component>
+</project>

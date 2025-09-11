@@ -17,6 +17,24 @@ import java.util.List;
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 public class SpeakerResource {
+
+    @Channel("new-speakers-out")
+    Emitter<SpeakerWasCreated> emitter;
+
+    @POST
+    public Uni<Response> create(Speaker speaker) {
+        return Panache.<Speaker>withTransaction(speaker::persist)
+                .onItem()
+                .transform(inserted -> {
+                    emitter.send(new SpeakerWasCreated(inserted.id,
+                            speaker.fullName,
+                            speaker.affiliation,
+                            speaker.email));
+                    return Response.created(URI.create("/speakers/" + inserted.id)).build();
+                });
+
+    }
+
     @GET
     @Path("/{id}")
     public Uni<Speaker> get(Long id) {
